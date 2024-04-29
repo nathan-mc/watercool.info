@@ -13,20 +13,24 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>💦 Hello there!</h1>
+			<h1>Hello there! 💦</h1>
 			<p>
 				My name is Nathan and I have been watercooling for well over 5 years at this point. I have a deep
 				love for this hobby, and wanted to make this guide to make it more accessible for anyone that 
 				maybe curious, but worried about ordering the wrong parts or damaging their components.
 			</p>
 			<p>
-				<a href="/guide">Here</a> you will find a complete beginners guide, a evolving glossary of terms that people
+				<a href="/guide">Here</a> you will find a complete beginners guide, including an evolving glossary of terms that people
 				use when watercooling
 			</p>
 			<p>In-depth pages on each component</p>
 			<ul>
-				<li><a href="/cpu-block">CPU Block</a></li>
+				<li><a href="/blog/cpu-block">CPU Block</a></li>
 				<li><a href="/gpu-block">GPU Block</a></li>
+				<li><a href="/pump-res">Pump & Reservoir</a></li>
+				<li><a href="/radiator-fans">Radiator & Fans</a></li>
+				<li><a href="/fitting">Fittings</a></li>
+				<li><a href="/coolant">Coolant</a></li>
 			</ul>
 		</main>
 		<Footer />
@@ -35,7 +39,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <style>
 	li a {
-		text-decoration: none;
+		color: inherit;
+	}
+
+	a {
 		color: inherit;
 	}
 </style>
