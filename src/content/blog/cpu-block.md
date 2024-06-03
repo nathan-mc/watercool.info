@@ -6,4 +6,4 @@ heroImage: '/blog-placeholder-3.jpg'
 ---
 
 **CPU BLOCK**
-The most important part
+The most important part that
